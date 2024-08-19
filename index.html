@@ -31,27 +31,35 @@
 </head>
 
 
-<body>
+<body class="max-w-[1024px]">
 
     <!-- main content -->
 
     <main class="max-w-screen-xl mx-auto px-16 lg:px-28 border-2 border-red-500">
-
-        <header class="flex pt-10 mb-20">
-            <div>
-                <h1 class="text-3xl md:text-7xl">Its good <br> tea time at the <br> tea house</h1> <br>
-                <p class="text-gray-500 w-3/4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum velit
+        <!-- header part -->
+        <header class="md:flex lg:flex md:pt-10 md:mb-20">
+            <div class="-ml-12">
+                <h1 class="text-2xl md:text-6xl font-bold uppercase  w-[210px]">Its good <br> tea
+                    time at
+                    the <br> tea
+                    house</h1>
+                <br>
+                <p class="text-gray-500  text-sm w-[230px]">Lorem ipsum dolor sit amet
+                    consectetur
+                    adipisicing elit.
+                    Dolorum
+                    velit
                     quaerat ullam possimus.</p>
                 <br>
                 <button class=" font-bold bg-gradient-to-r from-orange-500 to-red-500 w-[145px] h-[50px] rounded-md text-white 
                 ">Explore More <i class="fa-solid fa-arrow-right -rotate-45 text-xl"></i></button>
             </div>
             <div class="relative">
-                <div>
-                    <img class="w-full" src="images/banner.png" alt="">
+                <div class="lg:ml-15">
+                    <img class="md:w-full lg:w-full w-[280px]  md:ml-[150px] -ml-12" src="images/banner.png" alt="">
                 </div>
                 <div
-                    class="flex justify-center items-center bg-white shadow-lg px-2 py-2 md:px-10 lg:px-4 rounded-lg absolute md:top-80 top-80 md:left-32 lg:left-25">
+                    class="flex justify-center items-center bg-white shadow-lg px-2 py-2 md:px-10 lg:px-4 rounded-lg absolute lg:top-[335px]  lg:left-[350px] top-[180px] left-[0px] ">
                     <div class="">
                         <i class="fa-solid fa-star text-2xl text-amber-500"></i>
                     </div>
@@ -62,6 +70,84 @@
                 </div>
             </div>
         </header>
+
+        <!-- Product part -->
+        <section class="py-6 lg:py-14">
+            <div class="md:text-center -ml-12">
+                <h1
+                    class="text-xl md:text-5xl font-bold rb-2 mt-2  md:w-[850px] md:text-center lg:text-center   lg:w-[824px] w-[250px] ">
+                    Our Features
+                    Product</h1>
+                <p class="text-gray-500 md:mt-4 text-center md:text-xl text-sm mt-2 md:w-full w-[250px] ">Lorem ipsum
+                    dolor
+                    sit,
+                    amet
+                    consectetur rem
+                    iste incidunt esse adipisicing elit Praesentium corrupti.
+                </p>
+            </div>
+
+            <div class="grid  md:grid-cols-4 lg:grid-cols-4 gap-4 text-center ">
+                <div class="rounded-lg shadow-md bg-gray-50 overflow-hidden w-[200px] -ml-[16px]">
+                    <img class=" md:mx-auto w-[100px] mx-auto " src="images/tea-1.png" alt="">
+                    <div class="p-4">
+                        <h2 class="font-bold md:text-xl ">Milk</h2>
+                        <p class="text-gray-600 text-sm md:text-xl">Creamer could be recipaced by fresh milk</p>
+                    </div>
+                </div>
+                <div class="rounded-lg shadow-md bg-gray-50 overflow-hidden w-[200px] -ml-[12px]">
+                    <img class="md:mx-auto w-[100px] mx-auto" src="images/tea-2.png" alt="">
+                    <div class="p-4">
+                        <h2 class="font-bold md:text-xl text:sm ">Black Tea</h2>
+                        <p class="text-gray-600 text-sm md:text-xl">Creamer could be recipaced by fresh milk</p>
+                    </div>
+                </div>
+                <div class="rounded-lg shadow-md bg-gray-50 overflow-hidden w-[200px] -ml-[12px]">
+                    <img class="md:mx-auto w-[100px] mx-auto" src="images/tea-3.png" alt="">
+                    <div class="p-4">
+                        <h2 class="font-bold md:text-xl text:sm ">Lemon tea</h2>
+                        <p class="text-gray-600 text-sm md:text-xl">Creamer could be recipaced by fresh milk</p>
+                    </div>
+                </div>
+                <div class="rounded-lg shadow-md bg-gray-50 overflow-hidden w-[200px] -ml-[12px]">
+                    <img class="md:mx-auto w-[100px] mx-auto" src="images/tea-4.png" alt="">
+                    <div class="p-4">
+                        <h2 class="font-bold md:text-xl text:sm ">Green Tea</h2>
+                        <p class="text-gray-600 text-sm md:text-xl">Creamer could be recipaced by fresh milk</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="mb-24">
+            <div class="grid lg:grid-cols-2 grid-cols-1">
+                <div class="grid grid-cols-2 grid-rows-3 gap-2 lg:w-5/6">
+                    <div class="  h-[152px] w-[160px] rounded-lg bg-gradient-to-r from-red-100 to-red-50">
+                    </div>
+                    <div class=" bg-orange-50 rounded-xl mx-auto row-span-2 ">
+                        <img class="mx-auto my-8" src="images/fresh-1.png" alt="">
+                    </div>
+                    <div class=" bg-stone-100 rounded-xl mx-auto row-span-2 ">
+                        <img class="mx-auto my-8" src="images/fresh-2.png" alt="">
+                    </div>
+                    <div class="  h-[152px] w-[160px] rounded-lg bg-gradient-to-r from-stone-200 to-stone-100">
+                    </div>
+                </div>
+                <div class="">
+                    <h1 class="text-2xl lg:text-6xl font-bold mb-4">Great tea Freshly Presented</h1>
+                    <p class="text-gray-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora ipsum
+                        molestias doloribus ex
+                        dolore culpa deserunt facilis quod dolores vitae?</p>
+                    <h3 class="text-xl lg:text-2xl font-bold mb-3">Unique Tea</h3>
+                    <p class="text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, soluta.
+                    </p>
+                    <h3 class="text-xl lg:text-2xl font-bold mb-3">Premium Quality</h3>
+                    <p class="text-gray-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non, quos.</p>
+                </div>
+            </div>
+
+        </section>
     </main>
 
 </body>
